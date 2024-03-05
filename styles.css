@@ -26,7 +26,6 @@ h2 {
     font-size: 250%;
     letter-spacing: 1.5px;
     text-shadow: 0px 0px 6px #916c80;
-    padding-left: 10px;
 }
 
 nav ul {
@@ -45,9 +44,54 @@ nav ul li a{
     text-decoration: none;
     font-weight: bold;   
     letter-spacing: 1.5px;
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 nav ul li a:hover {
     text-shadow: 0px 0px 10px #916c80;    
+}
+
+section#about h2 {
+    text-align: right;
+    padding-right: 15px;
+}
+
+section#about p {
+    text-align: right;
+    padding-right: 15px;
+}
+
+section#about img {
+    width: 100%;
+    opacity: 0.2;
+    margin-top: -150px;
+}
+
+article {
+    padding-left: 10px;
+}
+
+article p a {
+    font-weigt: bold;
+}
+
+artcile p a:hover {
+    text-shadow: 0px 0px 4px #916c80;
+}
+
+article figure figcaption {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+footer {
+    text-align: center;
+    font-size: 150%;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #48284a
+}
+
+footer a:hover {
+    text-shadow: 0px 0px 4px #916c80;
 }
